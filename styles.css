@@ -12,13 +12,43 @@
 GENERAL
 **********************/
 
+body {
+	color: #36353A;
+}
 li {
 	list-style: none;
 }
 
 a {
 	text-decoration: none;
+	color: #36353A;
+	curson: pointer;
 }
+
+a:visited {
+	color: #36353A;
+}
+
+.btn {
+	padding: 8px 16px;
+	background: rgba(54, 53, 58, .8);
+	border-radius: 30px;
+}
+
+.btn:hover {
+	background: rgb(54, 53, 58);
+	cursor: pointer;
+}
+/**********************
+WRAPPER
+**********************/
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #EFEAD6;
+}
+
 
 /**********************
 NAVIGATION
@@ -29,6 +59,32 @@ NAVIGATION
 	text-decoration: none;
 }
 
+.nav-bar {
+	height: 90px;
+	max-width: 100%;
+	background: #fff;
+	padding: 25px 10px;
+	background: #D4B889;
+}
+
+.top-nav {
+	border-bottom: 3px solid #36353A;
+}
+
+.top-nav-list {
+	margin: 8px 0 0 0;
+}
+nav {
+	float: right;
+}
+
+.page-title {
+	float: left;
+}
+
+.nav-item a{
+	color: #EFEAD6;
+}
 /**********************
 SIDEBAR
 **********************/
