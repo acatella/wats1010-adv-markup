@@ -12,7 +12,7 @@
     <header class="nav-bar top-nav">
         <nav>
             <ul class="top-nav-list">
-                <li class="nav-item btn"><a href="index.html" class="active">Home</a></li>
+                <li class="nav-item btn active"><a href="index.html" class="active">Home</a></li>
                 <li class="nav-item btn"><a href="about-poe.html">About Poe</a></li>
                 <li class="nav-item btn"><a href="interpretation.html">Interpretation</a></li>
             </ul>
@@ -21,6 +21,7 @@
 			<h1>Sonnet: to Science</h1>	
 		</div>
     </header>
+	<section class="main-content">
     <aside class="sidebar">
         <h2>Did you know?</h2>
         <p>
@@ -31,15 +32,17 @@
             Morgue&rdquo; &ndash; 1841).
         </p>
         <h2>Share This!</h2>
-        <ul>
-            <li><a class="twitter" href="http://twitter.com">Twitter</a></li>
-            <li><a class="facebook" href="http://facebook.com">Facebook</a></li>
-            <li><a class="pinterest" href="http://pinterest.com">Pinterest</a></li>
+        <ul class="social-list">
+            <li class="nav-item"><a class="twitter" href="http://twitter.com"><img class="social-item" src="images/twitter.png"</a></li>
+            <li class="nav-item social-item"><a class="facebook" href="http://facebook.com"><img class="social-item" src="images/facebook.png"></a></li>
+            <li class="nav-item social-item"><a class="pinterest" href="http://pinterest.com"><img src="images/pinterest.png" class="social-item"></a></li>
         </ul>
+		<h2>Email this!</h2>
+		<a class="btn" href="mailto:?to&subject=Check%20Out%This%20Dope%Sonnett&body=http://www.sonnettosciene.com">email</a>
     </aside>
-    <section id="content">
-        <ul class="poem"><!-- TODO: Remove bullets and style poem -->
-            <li>Science! true daughter of Old Time thou art!</li>
+    <section class="content">
+        <ul class="poem">
+            <li class="first-line">Science! true daughter of Old Time thou art!</li>
             <li>Who alterest all things with thy peering eyes.</li>
             <li>Why preyest thou thus upon the poet's heart,</li>
             <li>Vulture, whose wings are dull realities?</li>
@@ -55,22 +58,26 @@
             <li>The summer dream beneath the tamarind tree?</li>
         </ul>
     </section>
-    <footer>
+	<div class="space-fix"></div>
+	</section>
+    <footer class="nav-bar bottom-nav">
         <nav>
-            <ul class="bottom-nav">
-                <li class="nav-item"><a href="index.html" class="active">Home</a></li>
-                <li class="nav-item"><a href="about-poe.html">About Poe</a></li>
-                <li class="nav-item"><a href="interpretation.html">Interpretation</a></li>
+            <ul>
+                <li class="nav-item btn"><a href="index.html" class="active">Home</a></li>
+                <li class="nav-item btn"><a href="about-poe.html">About Poe</a></li>
+                <li class="nav-item btn"><a href="interpretation.html">Interpretation</a></li>
             </ul>
         </nav>
+		<div class="footer">
         <p>&copy;2015 Jane Student</p>
         <p class="smalltext">
             <a href="http://www.public-domain-poetry.com/edgar-allan-poe/sonnet-to-science-1747">
-                Sonnet: to Science
+                <em>Sonnet: to Science</em>
             </a>
             text is by Edgar Allen Poe, and provided courtesy
             Public-Domain-Poetry.com.
         </p>
+		</div>
     </footer>
 	</div>
 </body>

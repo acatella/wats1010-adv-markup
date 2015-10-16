@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div id="wrapper">
-    <header>
-        <h1>Sonnet: to Science</h1>
+	<div class="wrapper">
+    <header class="nav-bar top-nav">
         <nav>
-            <ul class="top-nav">
-                <li class="nav-item"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="about-poe.html" class="active">About Poe</a></li>
-                <li class="nav-item"><a href="interpretation.html">Interpretation</a></li>
+            <ul class="top-nav-list">
+                <li class="nav-item btn"><a href="index.html" class="active">Home</a></li>
+                <li class="nav-item btn active"><a href="about-poe.html">About Poe</a></li>
+                <li class="nav-item btn"><a href="interpretation.html">Interpretation</a></li>
             </ul>
         </nav>
+		<div class="page-title">
+			<h1>Sonnet: to Science</h1>	
+		</div>
     </header>
+	<section class="main-content">
     <aside class="sidebar">
         <h2>Bio Stats</h2>
 		<dl>
@@ -32,11 +35,13 @@
 			<dd>Virginia Eliza Clemm Poe</dd>
 		</dl>
         <h2>Share This!</h2>
-        <ul>
-            <li><a class="twitter" href="http://twitter.com">Twitter</a></li>
-            <li><a class="facebook" href="http://facebook.com">Facebook</a></li>
-            <li><a class="pinterest" href="http://pinterest.com">Pinterest</a></li>
+        <ul class="social-list">
+            <li class="nav-item"><a class="twitter" href="http://twitter.com"><img class="social-item" src="images/twitter.png"</a></li>
+            <li class="nav-item social-item"><a class="facebook" href="http://facebook.com"><img class="social-item" src="images/facebook.png"></a></li>
+            <li class="nav-item social-item"><a class="pinterest" href="http://pinterest.com"><img src="images/pinterest.png" class="social-item"></a></li>
         </ul>
+		<h2>Email this!</h2>
+		<a class="btn" href="mailto:?to&subject=Check%20Out%This%20Dope%Sonnett&body=http://www.sonnettosciene.com">email</a>
     </aside>
     <section class="content">
         <h2>Biographical Summary</h2>
@@ -94,23 +99,26 @@
 				<td>"The Fall of the House of Usher"</td>
 			</tr>			
         </table>
-    </section>
-    <footer>
-        <nav>
-            <ul class="bottom-nav">
-                <li class="nav-item"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="about-poe.html" class="active">About Poe</a></li>
-                <li class="nav-item"><a href="interpretation.html">Interpretation</a></li>
-            </ul>
-        </nav>
-        <p>&copy;2015 Jane Student</p>
-        <p class="smalltext">
+		<div>
             <ul class="bibliography">
                 <li id="citation-1"><a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe#CITEREFStableford2003">Stableford 2003</a>, pp. 18–19</li>
                 <li id="citation-2"><a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe#CITEREFMeyers1992">Meyers 1992</a>, p. 138</li>
                 <li id="citation-3"><a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe#CITEREFMeyers1992">Meyers 1992</a>, p. 256</li>
             </ul>
-        </p>
+        </div>
+    </section>
+	</section>
+    <footer class="nav-bar bottom-nav">
+        <nav>
+            <ul>
+                <li class="nav-item btn"><a href="index.html">Home</a></li>
+                <li class="nav-item btn"><a href="about-poe.html" class="active">About Poe</a></li>
+                <li class="nav-item btn"><a href="interpretation.html">Interpretation</a></li>
+            </ul>
+        </nav>
+		<div class="footer">
+        <p>&copy;2015 Jane Student</p>
+		</div>
     </footer>
 	</div>
 </body>

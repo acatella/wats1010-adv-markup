@@ -22,22 +22,42 @@ li {
 a {
 	text-decoration: none;
 	color: #36353A;
-	curson: pointer;
+	cursor: pointer;
 }
 
+h2 {
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}
+
+p {
+	margin: 0 0 10px;
+}
 a:visited {
 	color: #36353A;
 }
+
 
 .btn {
 	padding: 8px 16px;
 	background: rgba(54, 53, 58, .8);
 	border-radius: 30px;
+	text-transform: uppercase;
+	font-size: .8em;
+	color: #EFEAD6;
 }
 
 .btn:hover {
 	background: rgb(54, 53, 58);
 	cursor: pointer;
+}
+
+.smalltext {
+	font-size: .8em;
+}
+
+.space-fix {
+	height: 100px;
 }
 /**********************
 WRAPPER
@@ -80,20 +100,25 @@ nav {
 
 .page-title {
 	float: left;
+	text-transform: uppercase;
 }
 
 .nav-item a{
 	color: #EFEAD6;
 }
-/**********************
-SIDEBAR
-**********************/
 
-.sidebar {
-	float: right;
-	width: 25%;
+.nav-item {
+	margin: 3px;
 }
 
+.bottom-nav {
+	padding: 35px 10px;
+}
+
+li.active {
+	border-bottom: 3px solid #EFEAD6;
+
+}
 /**********************
 PHOTO
 **********************/
@@ -102,23 +127,66 @@ PHOTO
 	float: left;
 	width: 257px;
 
-	box-shadow: 3px 3px 3px #ccc;
-	margin: 0 5px 3px 0;
+	box-shadow: 3px 3px 3px #D4B889;
+	margin: 0 15px 4px 0;
+}
+
+/**********************
+SIDEBAR
+**********************/
+
+.sidebar {
+	float: right;
+	width: 23%;
+}
+
+
+.social-list {
+	margin-bottom: 10px;
+}
+.social-item {
+	height: 35px;
+	width: 35px;
+	margin: 0 5px 0 0;
+}
+
+dl {
+	margin: 0 0 10px;
 }
 
 /**********************
 CONTENT
 **********************/
 
+.poem {
+	margin: 75px 0 0 0;
+}
+
+.poem li {
+	text-align: center;
+}
+.main-content {
+	margin: 25px 10px;
+}
 .content {
 	width: 75%;
 }
 
+.poem li {
+	font-size: 1.5em;
+	line-height: 1em;
+}
 .poem {
 	list-style: none;
 }
 
+.first-line::first-letter {
+	font-size: 2em;
+}
 
+.main-content h2 {
+	
+}
 /**********************
 TABLE
 **********************/
@@ -132,4 +200,21 @@ TABLE
 table.selected-works {
 	border-collapse: collapse;
 	border: 1px solid black;
+}
+
+/**********************
+BIBLIOGRAPHY
+**********************/
+
+.bibliography {
+	margin: 25px 0;
+	font-size: .8em;
+}
+
+/**********************
+FOOTER
+**********************/
+
+.footer {
+	font-size: .8em;
 }
