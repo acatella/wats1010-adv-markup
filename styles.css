@@ -14,6 +14,7 @@ GENERAL
 
 body {
 	color: #36353A;
+	font-family: "Raleway", sans-serif;
 }
 li {
 	list-style: none;
@@ -40,15 +41,16 @@ a:visited {
 
 .btn {
 	padding: 8px 16px;
-	background: rgba(54, 53, 58, .8);
+	border: 2px solid rgba(54, 53, 58, .8);
 	border-radius: 30px;
 	text-transform: uppercase;
 	font-size: .8em;
-	color: #EFEAD6;
+	color: rgba(54, 53, 58, .8);
+
 }
 
 .btn:hover {
-	background: rgb(54, 53, 58);
+	background: #F26E64;
 	cursor: pointer;
 }
 
@@ -59,6 +61,10 @@ a:visited {
 .space-fix {
 	height: 100px;
 }
+
+.highlight {
+	color: #F26E64;
+}
 /**********************
 WRAPPER
 **********************/
@@ -66,7 +72,7 @@ WRAPPER
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #EFEAD6;
+	background: ;
 }
 
 
@@ -84,7 +90,7 @@ NAVIGATION
 	max-width: 100%;
 	background: #fff;
 	padding: 25px 10px;
-	background: #D4B889;
+	background: ;
 }
 
 .top-nav {
@@ -103,9 +109,6 @@ nav {
 	text-transform: uppercase;
 }
 
-.nav-item a{
-	color: #EFEAD6;
-}
 
 .nav-item {
 	margin: 3px;
@@ -115,8 +118,8 @@ nav {
 	padding: 35px 10px;
 }
 
-li.active {
-	border-bottom: 3px solid #EFEAD6;
+.active {
+	 background: #F26E64;
 
 }
 /**********************
@@ -127,7 +130,7 @@ PHOTO
 	float: left;
 	width: 257px;
 
-	box-shadow: 3px 3px 3px #D4B889;
+	box-shadow: 3px 3px 3px #ccc;
 	margin: 0 15px 4px 0;
 }
 
@@ -138,8 +141,9 @@ SIDEBAR
 .sidebar {
 	float: right;
 	width: 23%;
+	padding: 25px 10px;
+	
 }
-
 
 .social-list {
 	margin-bottom: 10px;
@@ -158,18 +162,17 @@ dl {
 CONTENT
 **********************/
 
-.poem {
-	margin: 75px 0 0 0;
-}
-
 .poem li {
 	text-align: center;
 }
-.main-content {
-	margin: 25px 10px;
-}
+
 .content {
 	width: 75%;
+	padding-top: 25px;
+}
+
+.first-page .content {
+	padding-top: 75px
 }
 
 .poem li {
@@ -217,4 +220,11 @@ FOOTER
 
 .footer {
 	font-size: .8em;
+}
+
+.bottom-nav {
+	background: #ccc;
+}
+.bottom-nav .nav-item {
+	margin-right: 16px;
 }
