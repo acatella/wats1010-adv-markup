@@ -15,6 +15,7 @@ GENERAL
 body {
 	color: #36353A;
 	font-family: "Raleway", sans-serif;
+	min-width: 960px;
 }
 li {
 	list-style: none;
@@ -223,9 +224,11 @@ FOOTER
 	font-size: .8em;
 }
 
-.bottom-nav {
+.bottom-nav  {
 	background: #ccc;
 }
+
+
 .bottom-nav .nav-item {
 	margin-right: 16px;
 }
