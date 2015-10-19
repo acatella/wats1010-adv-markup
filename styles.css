@@ -187,8 +187,9 @@ CONTENT
 	font-size: 2em;
 }
 
-.main-content h2 {
-	
+.content-btn {
+	border: 2px solid #000;
+	color: #000;
 }
 /**********************
 TABLE
